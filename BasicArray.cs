@@ -10,6 +10,7 @@ namespace Array_demo
     {
         static void Main(string[] args)
         {
+            //one Dimension Array or 1D array
             int[] sample = new int[5] { 1, 2, 3, 4, 5 };
             int sum = 0;
             string x = "";
@@ -21,7 +22,7 @@ namespace Array_demo
             Console.WriteLine("array elements : "+x);
             Console.WriteLine(string.Format("the sum of the arrays are:{0}",sum));
 
-
+            //Two Dimension Array or 2D array
             int[,] sample1 = new int[2, 5] { { 1, 1, 1, 1, 1 }, {1, 1, 1, 1, 1} };
             int sum1 = 0;
             string x1 = "";
@@ -36,6 +37,9 @@ namespace Array_demo
             Console.WriteLine("array elements :" + x1);
             Console.WriteLine(string.Format("the sumz of the array are:{0}", sum1));
 
+            
+            //Jagged Array
+            
             int[][] sample2 = new int[3][];
             sample2[0] = new int[4] { 1, 2, 3, 4 };
             sample2[1] = new int[3] { 5, 6, 7 };
